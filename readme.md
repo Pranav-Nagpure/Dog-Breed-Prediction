@@ -1,13 +1,100 @@
-Steps to run the application:  
-Step 1: Create a copy of the project  
-Step 2: Open anaconda prompt and change current path to StreamlitApp folder (where you can find 'app.py' file)  
-Step 3: Create a virtual environment, using the command below-  
-conda create -n environment_name python=3.10  
-Step 4: Activate the virtual environment, using the command below-  
-conda activate environment_name  
-Step 5: Use the command below to install requirements for tensorflow-  
-conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0  
-Step 6: Use the command below to install required dependencies-  
-python -m pip install -r requirements.txt  
-Step 7: Run the application by command-  
-streamlit run app.py  
+<a name="readme-top"></a>
+
+<div align="center">
+
+# __Dog Breed Prediction__
+
+### Built Using
+  
+[![Python][python-shield]][python-url]
+[![Streamlit][streamlit-shield]][streamlit-url]
+[![Keras][keras-shield]][keras-url]
+[![TensorFlow][tensorflow-shield]][tensorflow-url]
+[![Matplotlib][matplotlib-shield]][matplotlib-url]
+[![NumPy][numpy-shield]][numpy-url]
+[![Pandas][pandas-shield]][pandas-url]
+
+Visit the <a>Web Application</a> deployed on render
+
+</div>
+
+## __About__
+<p align="justify">
+A Web Application to Predict the Breed of Dogs from an image using a <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional Neural Network(CNN)</a>. Due to limited computational power only 3 breeds from the dataset were used.
+
+Data Source: https://www.kaggle.com/datasets/catherinehorng/dogbreedidfromcomp
+
+CNN model was built with this <a href="https://github.com/Pranav-Nagpure/Dog-Breed-Prediction-NB">IPython Notebook</a>
+<p>
+
+## __Getting Started__
+
+This Project is Built With [![Anaconda][anaconda-shield]][anaconda-url] [![VSCode][vscode-shield]][vscode-url] [![Render][render-shield]][render-url]
+
+### __Installation__
+To use the app on local machine, open Anaconda Prompt and run the following commands:
+
+1. Clone the Repository
+```sh
+git clone https://github.com/Pranav-Nagpure/Dog-Breed-Prediction.git
+```
+
+2. Change Working Directory
+```sh
+cd Dog-Breed-Prediction
+```
+
+3. If needed create a Virtual Environment and activate it
+```sh
+conda create -n environment_name python=3.10
+conda activate environment_name
+```
+
+4. Install the requirements
+```sh
+python -m pip install -r requirements.txt
+```
+
+5. Run the App
+```sh
+streamlit run app.py
+```
+
+6. App will open in a browser
+
+<p align="right">
+(<a href="#readme-top">back to top</a>)
+</p>
+
+[python-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/python-shield.png "Python"
+[python-url]: https://www.python.org
+
+[streamlit-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/streamlit-shield.png
+[streamlit-url]: https://streamlit.io "Streamlit"
+
+[scikit-learn-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/scikit-learn-shield.png
+[scikit-learn-url]: https://scikit-learn.org/stable "Scikit-Learn"
+
+[keras-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/keras-shield.png
+[keras-url]: https://keras.io "Keras"
+
+[tensorflow-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/tensorflow-shield.png
+[tensorflow-url]: https://www.tensorflow.org "TensorFlow"
+
+[matplotlib-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/matplotlib-shield.png
+[matplotlib-url]: https://matplotlib.org "Matplotlib"
+
+[numpy-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/numpy-shield.png
+[numpy-url]: https://numpy.org "NumPy"
+
+[pandas-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/pandas-shield.png
+[pandas-url]: https://pandas.pydata.org "Pandas"
+
+[anaconda-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/anaconda-shield.png
+[anaconda-url]: https://www.anaconda.com "Anaconda"
+
+[vscode-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/vscode-shield.png
+[vscode-url]: https://code.visualstudio.com "VSCode"
+
+[render-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/render-shield.png
+[render-url]: https://render.com "Render"
