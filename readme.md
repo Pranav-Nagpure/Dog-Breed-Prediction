@@ -25,7 +25,7 @@ A Web Application to Predict the Breed of Dogs from an image using a <a href="ht
 Data Source: https://www.kaggle.com/datasets/catherinehorng/dogbreedidfromcomp
 
 CNN model was built with this <a href="https://github.com/Pranav-Nagpure/Dog-Breed-Prediction-NB">IPython Notebook</a>
-<p>
+</p>
 
 ## __Getting Started__
 
