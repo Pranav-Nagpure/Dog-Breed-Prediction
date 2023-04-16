@@ -10,9 +10,7 @@
 [![Streamlit][streamlit-shield]][streamlit-url]
 [![Keras][keras-shield]][keras-url]
 [![TensorFlow][tensorflow-shield]][tensorflow-url]
-[![Matplotlib][matplotlib-shield]][matplotlib-url]
 [![NumPy][numpy-shield]][numpy-url]
-[![Pandas][pandas-shield]][pandas-url]
 
 Visit the <a href="https://dogbreed-predictor.onrender.com">Web Application</a> deployed on render
 
@@ -72,23 +70,14 @@ streamlit run app.py
 [streamlit-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/streamlit-shield.png
 [streamlit-url]: https://streamlit.io "Streamlit"
 
-[scikit-learn-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/scikit-learn-shield.png
-[scikit-learn-url]: https://scikit-learn.org/stable "Scikit-Learn"
-
 [keras-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/keras-shield.png
 [keras-url]: https://keras.io "Keras"
 
 [tensorflow-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/tensorflow-shield.png
 [tensorflow-url]: https://www.tensorflow.org "TensorFlow"
 
-[matplotlib-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/matplotlib-shield.png
-[matplotlib-url]: https://matplotlib.org "Matplotlib"
-
 [numpy-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/numpy-shield.png
 [numpy-url]: https://numpy.org "NumPy"
-
-[pandas-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/pandas-shield.png
-[pandas-url]: https://pandas.pydata.org "Pandas"
 
 [anaconda-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/anaconda-shield.png
 [anaconda-url]: https://www.anaconda.com "Anaconda"
