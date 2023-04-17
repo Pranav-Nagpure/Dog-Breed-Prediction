@@ -50,6 +50,7 @@ conda activate environment_name
 
 4. Install the requirements
 ```sh
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 python -m pip install -r requirements.txt
 ```
 
