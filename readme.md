@@ -18,11 +18,11 @@ Visit the <a href="https://dogbreed-predictor.onrender.com">Web Application</a> 
 
 ## __About__
 <p align="justify">
-A Web Application to Predict the Breed of Dogs from an image using a <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional Neural Network(CNN)</a>. Due to limited computational power only 3 breeds from the dataset were used.
+A Web Application to Predict the Breed of Dogs from an image using a <a href="https://arxiv.org/abs/1610.02357">Xception Convolutional Neural Network</a> and Logistic Regression using transfer learning.
 
 Data Source: https://www.kaggle.com/datasets/catherinehorng/dogbreedidfromcomp
 
-CNN model was built with this <a href="https://github.com/Pranav-Nagpure/Dog-Breed-Prediction-NB">IPython Notebook</a>
+Model was built with this <a href="https://github.com/Pranav-Nagpure/Dog-Breed-Prediction-NB">IPython Notebook</a>
 </p>
 
 ## __Getting Started__
