@@ -12,8 +12,6 @@
 [![TensorFlow][tensorflow-shield]][tensorflow-url]
 [![NumPy][numpy-shield]][numpy-url]
 
-Visit the <a href="https://dogbreed-predictor.onrender.com">Web Application</a> deployed on render
-
 </div>
 
 ## __About__
